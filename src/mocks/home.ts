@@ -15,11 +15,11 @@ export const heroMedia = {
 
 export const heroShowcase = {
   background:
-    "https://readdy.ai/api/search-image?query=Cinematic%20dusk%20photograph%20of%20an%20ultra%20modern%20minimalist%20hillside%20villa%20in%20Los%20Angeles%2C%20crisp%20white%20board%20formed%20concrete%20and%20dark%20charcoal%20steel%20frame%20architecture%2C%20floor%20to%20ceiling%20glass%20glowing%20soft%20neutral%20white%20from%20within%2C%20slim%20vertical%20fins%2C%20still%20infinity%20pool%20in%20the%20foreground%20with%20cool%20grey%20reflective%20water%2C%20sculptural%20olive%20trees%20and%20low%20succulents%2C%20deep%20blue%20grey%20and%20slate%20palette%20with%20soft%20cool%20even%20light%2C%20no%20warm%20orange%20tones%2C%20overcast%20moody%20sky%2C%20ultra%20sharp%20editorial%20architectural%20photography%2C%20serene%20restrained%20luxurious%20atmosphere%2C%20wide%20landscape%20composition&width=1920&height=1080&seq=medved-hero-modern-dusk-04&orientation=landscape&nocache=true",
+    `${import.meta.env.BASE_URL}images/medved-hero-modern-dusk-04.jpg`,
   primary:
-    "https://readdy.ai/api/search-image?query=Cinematic%20blue-hour%20photograph%20of%20a%20striking%20modern%20luxury%20hillside%20residence%20in%20the%20Hollywood%20Hills%20with%20floor-to-ceiling%20glass%20walls%20glowing%20warm%20amber%20from%20within%20beneath%20a%20deep%20teal%20twilight%20sky%20dramatic%20cantilevered%20architecture%20infinity%20pool%20reflecting%20the%20glowing%20house%20manicured%20landscaping%20moody%20premium%20architectural%20photography%20crisp%20detail%20elegant%20atmosphere&width=1200&height=1500&seq=medved-hero-dusk-01&orientation=portrait",
+    `${import.meta.env.BASE_URL}images/medved-hero-dusk-01.jpg`,
   inset:
-    "https://readdy.ai/api/search-image?query=Elegant%20architectural%20interior%20detail%20photograph%20of%20a%20luxury%20home%20at%20dusk%20warm%20brass%20pendant%20lights%20above%20a%20stone%20kitchen%20island%20floor-to-ceiling%20glass%20framing%20a%20dark%20teal%20evening%20skyline%20refined%20minimal%20styling%20soft%20cinematic%20lighting%20premium%20real%20estate%20editorial%20photography%20muted%20harmonious%20palette&width=800&height=1000&seq=medved-hero-inset-01&orientation=portrait",
+    `${import.meta.env.BASE_URL}images/medved-hero-inset-01.jpg`,
 };
 
 export const logos = {
@@ -158,13 +158,13 @@ export const neighborhoods = [
 
 export const sectionBackdrops = {
   about:
-    "https://readdy.ai/api/search-image?query=Bright%20high-key%20architectural%20interior%20with%20pale%20ivory%20limewash%20plaster%20walls%2C%20wide%20pale%20oak%20floorboards%2C%20a%20single%20linen%20armchair%20beside%20a%20tall%20window%20with%20sheer%20curtains%2C%20soft%20California%20morning%20sunlight%20raking%20across%20the%20wall%2C%20muted%20warm%20neutral%20palette%20of%20cream%20and%20sand%2C%20very%20light%20and%20airy%20exposure%2C%20minimal%20editorial%20architectural%20photography%2C%20gentle%20film%20grain%2C%20calm%20and%20quiet%20composition&width=1920&height=1080&seq=medved-band-about-01&orientation=landscape",
+    `${import.meta.env.BASE_URL}images/medved-band-about-01.jpg`,
   testimonials:
-    "https://readdy.ai/api/search-image?query=Warm%20ivory-toned%20luxury%20living%20room%20interior%20with%20linen%20sofas%2C%20pale%20oak%20floors%2C%20a%20stone%20fireplace%20and%20tall%20glass%20doors%20opening%20onto%20a%20sunlit%20terrace%20with%20olive%20trees%2C%20soft%20diffused%20California%20daylight%2C%20muted%20warm%20neutral%20palette%2C%20quiet%20editorial%20architectural%20photography%2C%20gentle%20film%20grain%2C%20minimal%20styling&width=1920&height=1080&seq=medved-band-testimonials-01&orientation=landscape",
+    `${import.meta.env.BASE_URL}images/medved-band-testimonials-01.jpg`,
   newsletter:
-    "https://readdy.ai/api/search-image?query=Elevated%20view%20over%20a%20Los%20Angeles%20hillside%20neighborhood%20at%20soft%20golden%20hour%20with%20pale%20stucco%20homes%2C%20mature%20cypress%20and%20palm%20trees%2C%20hazy%20warm%20light%2C%20muted%20warm%20neutral%20tones%2C%20quiet%20editorial%20landscape%20photography%2C%20soft%20film%20grain%2C%20calm%20and%20serene%20atmosphere&width=1920&height=1080&seq=medved-band-newsletter-01&orientation=landscape",
+    `${import.meta.env.BASE_URL}images/medved-band-newsletter-01.jpg`,
   stats:
-    "https://readdy.ai/api/search-image?query=Close%20architectural%20detail%20of%20a%20warm%20travertine%20wall%20with%20an%20arched%20doorway%20and%20a%20shaft%20of%20late%20afternoon%20sunlight%2C%20minimal%20luxury%20Mediterranean%20interior%2C%20muted%20beige%20and%20ivory%20tones%2C%20soft%20shadows%2C%20editorial%20architectural%20photography%2C%20fine%20film%20grain%2C%20refined%20quiet%20composition&width=1920&height=1080&seq=medved-band-stats-01&orientation=landscape",
+    `${import.meta.env.BASE_URL}images/medved-band-stats-01.jpg`,
 };
 
 export const aboutImage =
