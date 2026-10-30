@@ -37,17 +37,17 @@ export default function AboutUs({ onOpenContact }: AboutUsProps) {
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
           {/* Imagery: the same square-cut plate, with its small ink caption */}
           <Reveal x={-30} y={0} delay={60}>
-            <div className="relative">
-              <div className="h-[400px] w-full overflow-hidden sm:h-[520px] md:h-[min(62svh,600px)]">
+            <div className="relative mx-auto w-full max-w-[460px]">
+              <div className="aspect-[3/4] w-full overflow-hidden">
                 <img
                   src={aboutImage}
                   alt="Karen Medved, Los Angeles luxury real estate agent with Team Medved"
                   title="About Team Medved, Los Angeles luxury real estate"
-                  className="portrait-push h-full w-full object-cover object-top"
+                  className="portrait-push h-full w-full object-cover object-[center_15%]"
                 />
               </div>
 
-              <div className="absolute -bottom-6 right-0 hidden max-w-[260px] bg-foreground-950 px-7 py-6 md:block">
+              <div className="absolute -bottom-6 -right-6 hidden max-w-[220px] lg:-right-14 bg-foreground-950 px-7 py-6 md:block">
                 <p className="font-heading text-[1.4rem] leading-[1.2] tracking-[-0.025em] text-background-50">
                   Twenty-Plus
                 </p>
