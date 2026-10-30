@@ -168,7 +168,7 @@ export const sectionBackdrops = {
 };
 
 export const aboutImage =
-  "https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/lpdjd4dt2baoer8ekqna/groupskintchupcropll-6640";
+  `${import.meta.env.BASE_URL}images/karen-medved.jpg`;
 
 export const buySellPanels = [
   {

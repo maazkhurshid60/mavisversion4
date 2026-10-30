@@ -41,7 +41,7 @@ export default function AboutUs({ onOpenContact }: AboutUsProps) {
               <div className="h-[400px] w-full overflow-hidden sm:h-[520px] md:h-[min(62svh,600px)]">
                 <img
                   src={aboutImage}
-                  alt="Team Medved real estate advisors Karen Medved and Julie welcoming clients in Los Angeles"
+                  alt="Karen Medved, Los Angeles luxury real estate agent with Team Medved"
                   title="About Team Medved, Los Angeles luxury real estate"
                   className="portrait-push h-full w-full object-cover object-top"
                 />
