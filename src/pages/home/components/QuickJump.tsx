@@ -41,7 +41,7 @@ export default function QuickJump() {
                   <p className="mt-2.5 font-body text-xs font-light leading-relaxed text-foreground-600 md:text-sm">
                     {card.description}
                   </p>
-                  <span className="mt-5 inline-flex items-center gap-2 font-body text-[0.85rem] font-light text-foreground-700 transition-colors group-hover:text-accent-700">
+                  <span className="mt-5 inline-flex items-center gap-2 font-body text-[0.85rem] font-light text-foreground-700 transition-colors group-hover:text-accent-600">
                     {card.cta}
                     <i className="ri-arrow-right-line text-[11px] transition-transform duration-500 group-hover:translate-x-1.5" />
                   </span>

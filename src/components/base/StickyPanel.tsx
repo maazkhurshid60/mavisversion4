@@ -114,7 +114,7 @@ export default function StickyPanel({
         <div className="w-full">{children}</div>
         <div
           ref={shadeRef}
-          className="pointer-events-none absolute inset-0 bg-foreground-950 opacity-0"
+          className="pointer-events-none absolute inset-0 bg-primary-950 opacity-0"
           aria-hidden="true"
         />
       </div>

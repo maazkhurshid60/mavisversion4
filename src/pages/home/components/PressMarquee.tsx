@@ -8,7 +8,7 @@ const marqueeItems = [...pressNames, ...pressNames];
  */
 export default function PressMarquee() {
   return (
-    <section className="overflow-hidden bg-foreground-950 py-14 md:py-20">
+    <section className="overflow-hidden bg-primary-500 py-14 md:py-20">
       <div className="mx-auto mb-10 flex max-w-[1500px] items-baseline justify-between gap-6 px-4 md:mb-14 md:px-10">
         <h2 className="font-heading text-[1.35rem] tracking-[0.05em] text-background-50 md:text-[1.7rem]">
           As Seen In

@@ -43,20 +43,20 @@ export default function ContactModal({ open, onClose }: ContactModalProps) {
         type="button"
         aria-label="Close contact form"
         onClick={onClose}
-        className="absolute inset-0 h-full w-full cursor-pointer bg-foreground-950/60"
+        className="absolute inset-0 h-full w-full cursor-pointer bg-primary-950/60"
       />
       <div className="glass-strong relative z-10 max-h-[90vh] w-full max-w-lg animate-fade-up overflow-y-auto p-6 no-scrollbar md:p-9">
         <button
           type="button"
           onClick={onClose}
           aria-label="Close"
-          className="absolute right-4 top-4 flex h-9 w-9 cursor-pointer items-center justify-center border border-foreground-950/25 text-foreground-900 transition-colors hover:bg-foreground-950 hover:text-background-50"
+          className="absolute right-4 top-4 flex h-9 w-9 cursor-pointer items-center justify-center border border-foreground-950/25 text-foreground-900 transition-colors hover:bg-primary-500 hover:text-background-50"
         >
           <i className="ri-close-line text-lg" />
         </button>
 
         <span className="inline-flex items-center gap-3 font-label text-[9px] text-foreground-500">
-          <span className="h-px w-6 bg-foreground-950/30" aria-hidden="true" />
+          <span className="h-px w-6 bg-primary-950/30" aria-hidden="true" />
           Get In Touch
         </span>
         <h2 className="mt-5 font-heading text-[1.85rem] leading-[1.1] tracking-[-0.025em] text-foreground-950 md:text-[2.2rem]">

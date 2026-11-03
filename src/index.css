@@ -193,12 +193,12 @@
   }
 
   .glass-dark {
-    background-color: oklch(var(--foreground-950) / 0.55);
+    background-color: oklch(var(--primary-950) / 0.55);
     border: 1px solid oklch(var(--background-50) / 0.22);
   }
 
   .glass-dark-strong {
-    background-color: oklch(var(--foreground-950) / 0.72);
+    background-color: oklch(var(--primary-950) / 0.72);
     border: 1px solid oklch(var(--background-50) / 0.26);
   }
 
@@ -235,7 +235,7 @@
     inset: 0;
     z-index: 30;
     pointer-events: none;
-    background-color: oklch(var(--foreground-950));
+    background-color: oklch(var(--primary-950));
     opacity: 0;
   }
 
@@ -595,7 +595,7 @@
   .veil {
     position: absolute;
     inset: 0;
-    background-color: oklch(var(--foreground-950) / 0.45);
+    background-color: oklch(var(--primary-950) / 0.45);
     opacity: 0;
     transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1);
   }

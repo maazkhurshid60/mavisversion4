@@ -42,7 +42,7 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="relative z-20 border-t border-foreground-950/15 bg-background-100 text-foreground-950">
+    <footer className="relative z-20 border-t border-foreground-950/15 bg-secondary-100 text-foreground-950">
       <div className="px-4 py-16 md:px-10 md:py-20">
         {/* Masthead: centred, like a printed colophon */}
         <div className="flex flex-col items-center text-center">
@@ -65,7 +65,7 @@ export default function Footer() {
                 target="_blank"
                 rel="nofollow noopener noreferrer"
                 aria-label={social.label}
-                className="flex h-10 w-10 items-center justify-center border border-foreground-950/20 text-foreground-700 transition-colors hover:border-foreground-950 hover:bg-foreground-950 hover:text-background-50"
+                className="flex h-10 w-10 items-center justify-center border border-foreground-950/20 text-foreground-700 transition-colors hover:border-primary-500 hover:bg-primary-500 hover:text-background-50"
               >
                 <i className={`${social.icon} text-sm`} />
               </a>
@@ -86,13 +86,13 @@ export default function Footer() {
               </span>
               <a
                 href="tel:+13102664236"
-                className="link-underline font-body text-xs text-foreground-700 transition-colors hover:text-foreground-950"
+                className="link-underline font-body text-xs text-foreground-700 transition-colors hover:text-primary-500"
               >
                 (310) 266-4236
               </a>
               <a
                 href="mailto:teammedved@compass.com"
-                className="link-underline font-body text-xs text-foreground-700 transition-colors hover:text-foreground-950"
+                className="link-underline font-body text-xs text-foreground-700 transition-colors hover:text-primary-500"
               >
                 teammedved@compass.com
               </a>
@@ -113,7 +113,7 @@ export default function Footer() {
                   <li key={link.label}>
                     <Link
                       to={link.to}
-                      className="link-underline font-body text-xs font-light text-foreground-700 transition-colors hover:text-foreground-950"
+                      className="link-underline font-body text-xs font-light text-foreground-700 transition-colors hover:text-primary-500"
                     >
                       {link.label}
                     </Link>
@@ -156,7 +156,7 @@ export default function Footer() {
           <p>© {new Date().getFullYear()} Team Medved</p>
           <Link
             to="/terms-and-conditions"
-            className="link-underline transition-colors hover:text-foreground-950"
+            className="link-underline transition-colors hover:text-primary-500"
           >
             Privacy Policy
           </Link>

@@ -25,7 +25,7 @@ export default function InstagramFeed() {
               <span className="font-heading text-[1.2rem] font-medium tracking-[-0.02em] text-foreground-950">12.4K</span>
               <span className="font-body text-[0.85rem] font-light text-foreground-500">Followers</span>
             </div>
-            <span className="h-4 w-px bg-foreground-950/25" aria-hidden="true" />
+            <span className="h-4 w-px bg-primary-950/25" aria-hidden="true" />
             <div className="flex items-baseline gap-2.5">
               <span className="font-heading text-[1.2rem] font-medium tracking-[-0.02em] text-foreground-950">890</span>
               <span className="font-body text-[0.85rem] font-light text-foreground-500">Posts</span>

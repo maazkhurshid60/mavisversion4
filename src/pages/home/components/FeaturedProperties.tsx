@@ -49,7 +49,7 @@ export default function FeaturedProperties() {
                   </Link>
                   <Link
                     to="/properties/lease"
-                    className="link-underline cursor-pointer whitespace-nowrap font-body text-[0.8rem] font-light text-foreground-700 transition-colors hover:text-foreground-950"
+                    className="link-underline cursor-pointer whitespace-nowrap font-body text-[0.8rem] font-light text-foreground-700 transition-colors hover:text-primary-500"
                   >
                     For lease
                   </Link>
@@ -76,7 +76,7 @@ export default function FeaturedProperties() {
                         title={`${property.name}, ${property.address}`}
                         className="img-push h-full w-full object-cover object-center"
                       />
-                      <span className="absolute left-0 top-0 bg-foreground-950 px-3 py-1.5 font-label text-[9px] text-background-50">
+                      <span className="absolute left-0 top-0 bg-primary-500 px-3 py-1.5 font-label text-[9px] text-background-50">
                         {property.tag}
                       </span>
                       <span className="absolute right-0 top-0 bg-background-50/[0.92] px-3 py-1.5 text-[0.62rem] font-medium tracking-[0.16em] text-foreground-800">
@@ -97,7 +97,7 @@ export default function FeaturedProperties() {
                         <h3 className="font-heading text-[1.35rem] leading-snug text-foreground-950 md:text-[1.5rem]">
                           {property.name}
                         </h3>
-                        <i className="ri-arrow-right-up-line mt-1 shrink-0 text-foreground-500 transition-all duration-500 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent-700" />
+                        <i className="ri-arrow-right-up-line mt-1 shrink-0 text-foreground-500 transition-all duration-500 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent-600" />
                       </div>
 
                       <p className="mt-2 font-body text-[11px] font-light leading-relaxed text-foreground-600 md:text-xs">

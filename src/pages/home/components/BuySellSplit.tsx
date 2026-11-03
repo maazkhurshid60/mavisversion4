@@ -28,7 +28,7 @@ export default function BuySellSplit() {
                   className="img-push absolute inset-0 h-full w-full object-cover object-top"
                 />
                 <div
-                  className="absolute inset-0 bg-gradient-to-t from-foreground-950/85 via-foreground-950/25 to-transparent transition-opacity duration-700"
+                  className="absolute inset-0 bg-gradient-to-t from-primary-950/85 via-primary-950/25 to-transparent transition-opacity duration-700"
                   aria-hidden="true"
                 />
 

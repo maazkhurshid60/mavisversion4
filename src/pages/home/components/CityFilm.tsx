@@ -45,7 +45,7 @@ export default function CityFilm() {
       ref={sceneRef}
       id="film"
       aria-label="Prologue: Los Angeles at golden hour"
-      className="relative h-[220vh] bg-foreground-950 md:h-[300vh]"
+      className="relative h-[220vh] bg-primary-950 md:h-[300vh]"
     >
       <div className="sticky top-0 h-[100svh] overflow-hidden">
         {/* The slit → full bleed frame */}
@@ -67,9 +67,9 @@ export default function CityFilm() {
             </video>
           </div>
 
-          <div className="absolute inset-0 bg-foreground-950/25" aria-hidden="true" />
+          <div className="absolute inset-0 bg-primary-950/25" aria-hidden="true" />
           <div
-            className="absolute inset-0 bg-gradient-to-t from-foreground-950 via-foreground-950/10 to-foreground-950/45"
+            className="absolute inset-0 bg-gradient-to-t from-primary-950 via-primary-950/10 to-primary-950/45"
             aria-hidden="true"
           />
           <div className="film-frame pointer-events-none absolute inset-0 border border-background-50/25" aria-hidden="true" />
@@ -84,7 +84,7 @@ export default function CityFilm() {
         </div>
 
         <div
-          className="film-scrim pointer-events-none absolute inset-x-0 bottom-0 z-10 h-[62%] bg-gradient-to-t from-foreground-950 via-foreground-950/60 to-transparent"
+          className="film-scrim pointer-events-none absolute inset-x-0 bottom-0 z-10 h-[62%] bg-gradient-to-t from-primary-950 via-primary-950/60 to-transparent"
           aria-hidden="true"
         />
 

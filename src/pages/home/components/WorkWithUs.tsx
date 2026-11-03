@@ -44,7 +44,7 @@ export default function WorkWithUs({ onOpenContact }: WorkWithUsProps) {
           <source src={heroMedia.mp4} type="video/mp4" />
         </video>
       </div>
-      <div className="absolute inset-0 bg-foreground-950/72" aria-hidden="true" />
+      <div className="absolute inset-0 bg-primary-950/72" aria-hidden="true" />
 
       <Reveal
         y={34}

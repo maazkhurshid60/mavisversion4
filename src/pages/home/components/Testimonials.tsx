@@ -23,9 +23,9 @@ export default function Testimonials() {
           scrim that thickens only behind the type, never from a paper blanket. */}
       <SectionBackdrop
         image={sectionBackdrops.testimonials}
-        wash="bg-foreground-950/35"
-        scrim="bg-gradient-to-r from-foreground-950/85 via-foreground-950/60 to-foreground-950/30"
-        tint="bg-gradient-to-t from-foreground-950/65 via-transparent to-foreground-950/25"
+        wash="bg-primary-950/35"
+        scrim="bg-gradient-to-r from-primary-950/85 via-primary-950/60 to-primary-950/30"
+        tint="bg-gradient-to-t from-primary-950/65 via-transparent to-primary-950/25"
         speed={0.05}
       />
 

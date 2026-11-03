@@ -99,7 +99,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
               className={`${linkBase} ${
                 overHero
                   ? "text-background-50/80 hover:text-background-50"
-                  : "text-foreground-800 hover:text-foreground-950"
+                  : "text-foreground-800 hover:text-primary-500"
               }`}
             >
               Meet the Team
@@ -109,7 +109,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
               className={`${linkBase} ${
                 overHero
                   ? "text-background-50/80 hover:text-background-50"
-                  : "text-foreground-800 hover:text-foreground-950"
+                  : "text-foreground-800 hover:text-primary-500"
               }`}
             >
               Featured Listings
@@ -119,7 +119,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
               className={`${linkBase} ${
                 overHero
                   ? "text-background-50/80 hover:text-background-50"
-                  : "text-foreground-800 hover:text-foreground-950"
+                  : "text-foreground-800 hover:text-primary-500"
               }`}
             >
               Neighborhoods
@@ -129,7 +129,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
               className={`${linkBase} ${
                 overHero
                   ? "text-background-50/80 hover:text-background-50"
-                  : "text-foreground-800 hover:text-foreground-950"
+                  : "text-foreground-800 hover:text-primary-500"
               }`}
             >
               (310) 266-4236
@@ -155,8 +155,8 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
               aria-label="Open menu"
               className={`flex h-10 w-10 cursor-pointer items-center justify-center border transition-colors ${
                 overHero
-                  ? "border-background-50/45 text-background-50 hover:bg-background-50 hover:text-foreground-950"
-                  : "border-foreground-950/25 text-foreground-900 hover:border-foreground-950 hover:bg-foreground-950 hover:text-background-50"
+                  ? "border-background-50/45 text-background-50 hover:bg-background-50 hover:text-primary-500"
+                  : "border-foreground-950/25 text-foreground-900 hover:border-primary-500 hover:bg-primary-500 hover:text-background-50"
               }`}
             >
               <i className="ri-menu-line text-base" />
@@ -176,7 +176,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
           type="button"
           aria-label="Close menu"
           onClick={() => setMenuOpen(false)}
-          className="absolute inset-0 h-full w-full cursor-pointer bg-foreground-950/55"
+          className="absolute inset-0 h-full w-full cursor-pointer bg-primary-950/55"
         />
         <aside
           className={`absolute right-0 top-0 flex h-full w-full max-w-[440px] flex-col border-l border-foreground-950/15 bg-background-50 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
@@ -193,7 +193,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
               type="button"
               onClick={() => setMenuOpen(false)}
               aria-label="Close menu"
-              className="flex h-9 w-9 cursor-pointer items-center justify-center border border-foreground-950/25 text-foreground-900 transition-colors hover:bg-foreground-950 hover:text-background-50"
+              className="flex h-9 w-9 cursor-pointer items-center justify-center border border-foreground-950/25 text-foreground-900 transition-colors hover:bg-primary-500 hover:text-background-50"
             >
               <i className="ri-close-line text-lg" />
             </button>
@@ -210,7 +210,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
                 <li key={item.to} className="border-b border-foreground-950/10">
                   <Link
                     to={item.to}
-                    className="block py-3.5 font-heading text-[1.4rem] tracking-[-0.025em] text-foreground-950 transition-colors hover:text-accent-700"
+                    className="block py-3.5 font-heading text-[1.4rem] tracking-[-0.025em] text-foreground-950 transition-colors hover:text-accent-600"
                   >
                     {item.label}
                   </Link>
@@ -225,7 +225,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
                       type="button"
                       onClick={() => setOpenGroup(isOpen ? null : group.label)}
                       aria-expanded={isOpen}
-                      className="flex w-full cursor-pointer items-center justify-between py-3.5 font-heading text-[1.4rem] tracking-[-0.025em] text-foreground-950 transition-colors hover:text-accent-700"
+                      className="flex w-full cursor-pointer items-center justify-between py-3.5 font-heading text-[1.4rem] tracking-[-0.025em] text-foreground-950 transition-colors hover:text-accent-600"
                     >
                       {group.label}
                       <i
@@ -244,7 +244,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
                           <li key={item.to}>
                             <Link
                               to={item.to}
-                              className="block py-1.5 pl-4 font-label text-[10px] text-foreground-600 transition-colors hover:text-foreground-950"
+                              className="block py-1.5 pl-4 font-label text-[10px] text-foreground-600 transition-colors hover:text-primary-500"
                             >
                               {item.label}
                             </Link>
@@ -264,7 +264,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
                 <li key={item.to} className="border-b border-foreground-950/10">
                   <Link
                     to={item.to}
-                    className="block py-3.5 font-heading text-[1.4rem] tracking-[-0.025em] text-foreground-950 transition-colors hover:text-accent-700"
+                    className="block py-3.5 font-heading text-[1.4rem] tracking-[-0.025em] text-foreground-950 transition-colors hover:text-accent-600"
                   >
                     {item.label}
                   </Link>
@@ -283,7 +283,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
             </button>
             <a
               href="tel:+13102664236"
-              className="mt-4 block text-center font-label text-[9px] text-foreground-600 transition-colors hover:text-foreground-950"
+              className="mt-4 block text-center font-label text-[9px] text-foreground-600 transition-colors hover:text-primary-500"
             >
               (310) 266-4236
             </a>

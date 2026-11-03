@@ -23,7 +23,7 @@ export default function Hero() {
       ref={sceneRef}
       id="opening"
       aria-label="Opening"
-      className="relative isolate flex min-h-[100svh] flex-col overflow-hidden bg-foreground-950"
+      className="relative isolate flex min-h-[100svh] flex-col overflow-hidden bg-primary-950"
     >
       {/* Plate: the photograph is the scene, the scroll is the camera */}
       <div className="scene-media absolute inset-0 -z-20">
@@ -36,9 +36,9 @@ export default function Hero() {
       </div>
 
       {/* Ink: deep enough for the type, light enough to keep the architecture */}
-      <div className="absolute inset-0 -z-10 bg-foreground-950/46" aria-hidden="true" />
+      <div className="absolute inset-0 -z-10 bg-primary-950/46" aria-hidden="true" />
       <div
-        className="absolute inset-0 -z-10 bg-gradient-to-t from-foreground-950 via-foreground-950/18 to-foreground-950/62"
+        className="absolute inset-0 -z-10 bg-gradient-to-t from-primary-950 via-primary-950/18 to-primary-950/62"
         aria-hidden="true"
       />
 

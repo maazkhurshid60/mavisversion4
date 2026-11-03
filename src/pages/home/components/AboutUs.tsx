@@ -47,7 +47,7 @@ export default function AboutUs({ onOpenContact }: AboutUsProps) {
                 />
               </div>
 
-              <div className="absolute -bottom-6 -right-6 hidden max-w-[220px] lg:-right-14 bg-foreground-950 px-7 py-6 md:block">
+              <div className="absolute -bottom-6 -right-6 hidden max-w-[220px] lg:-right-14 bg-primary-500 px-7 py-6 md:block">
                 <p className="font-heading text-[1.4rem] leading-[1.2] tracking-[-0.025em] text-background-50">
                   Twenty-Plus
                 </p>
@@ -105,7 +105,7 @@ export default function AboutUs({ onOpenContact }: AboutUsProps) {
                 <button
                   type="button"
                   onClick={onOpenContact}
-                  className="link-underline cursor-pointer btn-label text-foreground-800 transition-colors hover:text-accent-700"
+                  className="link-underline cursor-pointer btn-label text-foreground-800 transition-colors hover:text-accent-600"
                 >
                   Contact Us
                 </button>
