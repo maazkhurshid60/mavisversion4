@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { heroShowcase } from "@/mocks/home";
+import { useState } from "react";
+import { heroMedia, heroShowcase } from "@/mocks/home";
 import Reveal from "@/components/base/Reveal";
 import Eyebrow from "@/components/base/Eyebrow";
 import ButtonLabel from "@/components/base/ButtonLabel";
@@ -17,6 +18,7 @@ import HeroGate from "@/pages/home/components/HeroGate";
  */
 export default function Hero() {
   const sceneRef = useScrollScene<HTMLElement>("cover");
+  const [playing, setPlaying] = useState(false);
 
   return (
     <section
@@ -33,6 +35,21 @@ export default function Hero() {
           title="Team Medved, modern Los Angeles architecture at dusk"
           className="h-full w-full animate-ken-burns object-cover object-center"
         />
+        {/* Film plate: fades in over the still once it is actually playing */}
+        <video
+          className={`absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-[1600ms] ease-out motion-reduce:hidden ${playing ? "opacity-100" : "opacity-0"}`}
+          poster={heroShowcase.background}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          onPlaying={() => setPlaying(true)}
+          aria-hidden="true"
+        >
+          <source src={heroMedia.webm} type="video/webm" />
+          <source src={heroMedia.mp4} type="video/mp4" />
+        </video>
       </div>
 
       {/* Ink: deep enough for the type, light enough to keep the architecture */}
